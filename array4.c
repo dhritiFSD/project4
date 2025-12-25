@@ -1,0 +1,33 @@
+#include<stdio.h>
+int main()
+{
+	int a[3][3],i,j;
+	printf("Enter the array :");
+	for(i=0;i<3;i++)
+	{
+		for(j=0;j<3;j++)
+		{
+			scanf("%d",&a[i][j]);
+		}
+		
+	}
+	
+	printf(" Even Martix is :\n");
+	for(i=0;i<3;i++)
+	{
+		for(j=0;j<3;j++)
+		{
+			if(a[i][j]%2==0)
+			printf("%d \n",a[i][j]);
+		}
+	}
+	printf(" Odd Martix is :\n");
+	for(i=0;i<3;i++)
+	{
+		for(j=0;j<3;j++)
+		{
+			if(a[i][j]%2!=0)
+			printf("%d \n",a[i][j]);
+		}
+	}
+}
