@@ -41,3 +41,4 @@ int main()
 		printf("colum %d = %d \n",j+1,colsum);
 	}
 }
+
